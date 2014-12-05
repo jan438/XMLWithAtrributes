@@ -56,6 +56,12 @@ public class TranslationXmlParser {
 		        }
 		    }
 		}
+		File f2 = new File("/home/keanu/GCompris-qt/src/" + file + "2");
+		if (f2.exists()) {
+			File f_orig = new File("/home/keanu/GCompris-qt/src/" + file);
+			f_orig.delete();
+			f2.renameTo(f_orig);
+		} 
 	}
 	
 	public static void main(String[] args) throws IOException {
