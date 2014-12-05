@@ -8,7 +8,6 @@ import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
-import java.util.Collection;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.List;
@@ -43,7 +42,6 @@ public class TranslationXmlParser {
 		            line = br.readLine();
 		        }
 		        br.close();
-
 		    } catch (Exception e) {
 		        e.printStackTrace();
 		    } finally {
@@ -67,44 +65,32 @@ public class TranslationXmlParser {
 		Map<String, ArrayList<String>> filetranslations = new HashMap<String, ArrayList<String>>();
 		Map<String, String> translations = new HashMap<String,String>();
 				
-		try {
-			
-			fis = new FileInputStream("gcompris_nl.xml");
-    
-			//Create a empty link of users initially
-			messages = new ArrayList<Message>();
-        
+		try {			
+			fis = new FileInputStream("gcompris_nl.xml");   
+			//Create a empty link of messages initially
+			messages = new ArrayList<Message>();        
             //Create default handler instance
-            TranslationParserHandler handler = new TranslationParserHandler();
- 
+            TranslationParserHandler handler = new TranslationParserHandler(); 
             //Create parser from factory
-            XMLReader parser = XMLReaderFactory.createXMLReader();
- 
+            XMLReader parser = XMLReaderFactory.createXMLReader(); 
             //Register handler with parser
-            parser.setContentHandler(handler);
- 
+            parser.setContentHandler(handler); 
             //Create an input source from the XML input stream
-            InputSource source = new InputSource(fis);
- 
+            InputSource source = new InputSource(fis); 
             //parse the document
             parser.parse(source);
- 
-            //populate the parsed users list in above created empty list; You can return from here also.
-            messages = handler.Messages();
- 
+            //populate the parsed messsages list in above created empty list; You can return from here also.
+            messages = handler.getMessages(); 
         } catch (SAXException e) {
-            // TODO Auto-generated catch block
             e.printStackTrace();
         } catch (IOException e) {
-            // TODO Auto-generated catch block
             e.printStackTrace();
         } finally {
         	fis.close();
         }
 		
 		System.out.println("messages " + messages.size());
-		
-		String location;
+	
 		List<String> locations = new ArrayList<String>();
 		ArrayList<String> sources = new ArrayList<String>();
 		Iterator<Message> itm;
@@ -135,12 +121,17 @@ public class TranslationXmlParser {
 		System.out.println("==========================================");
 		Set<String>	files = filetranslations.keySet();
 		Iterator<String> itf = files.iterator();
+		int count_files = 0, count_translations = 0;
 		while (itf.hasNext()) { 
 			String file = (String) itf.next();
 			sources = filetranslations.get(file);
 			translate(file, sources, translations);
+			count_files = count_files + 1;
+			if (translations != null) count_translations = count_translations + translations.size();
 		}	
 		System.out.println("==========================================");
+		System.out.println("Files: " + count_files + " Translations: " + count_translations + " " + translations.size());
+
 	}
 }
   

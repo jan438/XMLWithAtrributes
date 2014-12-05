@@ -13,10 +13,10 @@ public class TranslationParserHandler extends DefaultHandler {
     private ArrayList<Message> messageList = new ArrayList<Message>();
  
     //As we read any XML element we will push that in this stack
-    private Stack elementStack = new Stack();
+    private Stack<String> elementStack = new Stack<String>();
  
     //As we complete one user block in XML, we will push the User instance in userList
-    private Stack objectStack = new Stack();
+    private Stack<Message> objectStack = new Stack<Message>();
  
     public void startDocument() throws SAXException
     {
@@ -33,22 +33,14 @@ public class TranslationParserHandler extends DefaultHandler {
         //Push it in element stack
         this.elementStack.push(qName);
  
-        //If this is start of 'user' element then prepare a new User instance and push it in object stack
-        if ("message".equals(qName))
-        {
+        //If this is start of 'user' element then prepare a new Message instance and push it in object stack
+        if ("message".equals(qName)) {
             //New Message instance
             Message message = new Message();
- 
-            //Set all required attributes in any XML element here itself
-            if (attributes != null && attributes.getLength() == 1)
-            {
-                message.setId(Integer.parseInt(attributes.getValue(0)));
-            }
             this.objectStack.push(message);
         }
         else
-        if ("location".equals(qName))
-        {
+        if ("location".equals(qName)) {
             //Set all required attributes in any XML element here itself
             if (attributes != null && attributes.getLength() > 0) {
             	Message message = (Message) this.objectStack.peek();
@@ -56,17 +48,14 @@ public class TranslationParserHandler extends DefaultHandler {
             	message.addLocation(location);
             }
         }
-
     }
  
-    public void endElement(String uri, String localName, String qName) throws SAXException
-    {
+    public void endElement(String uri, String localName, String qName) throws SAXException {
         //Remove last added  element
         this.elementStack.pop();
  
         //User instance has been constructed so pop it from object stack and push in userList
-        if ("message".equals(qName))
-        {
+        if ("message".equals(qName)) {
             Message object = (Message) this.objectStack.pop();
             this.messageList.add(object);
         }
@@ -75,21 +64,15 @@ public class TranslationParserHandler extends DefaultHandler {
     /**
      * This will be called everytime parser encounter a value node
      * */
-    public void characters(char[] ch, int start, int length) throws SAXException
-    {
+    public void characters(char[] ch, int start, int length) throws SAXException {
         String value = new String(ch, start, length).trim();
- 
-        if (value.length() == 0)
-        {
-            return; // ignore white space
-        }
-        if ("source".equals(currentElement()))
-        {
+        // ignore white space
+        if (value.length() == 0) return;
+        if ("source".equals(currentElement())) {
             Message message = (Message) this.objectStack.peek();
             message.setSource(value);
         }
-        else if ("translation".equals(currentElement()))
-        {
+        else if ("translation".equals(currentElement())) {
             Message message = (Message) this.objectStack.peek();
             message.setTranslation(value);
         }
@@ -98,14 +81,12 @@ public class TranslationParserHandler extends DefaultHandler {
     /**
      * Utility method for getting the current element in processing
      * */
-    private String currentElement()
-    {
+    private String currentElement() {
         return (String) this.elementStack.peek();
     }
  
     //Accessor for messageList object
-    public ArrayList Messages()
-    {
+    public ArrayList<Message> getMessages() {
         return messageList;
     }
 }

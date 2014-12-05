@@ -8,23 +8,14 @@ import java.util.List;
  * */
 public class Message
 {
-    //XML attribute id
-    private int id;
-    
     //XML element location
-    private List<String> locations = new ArrayList();;
+    private List<String> locations = new ArrayList<String>();;
     
     //XML element source
     private String source;
     //XML element translation
     private String translation;
  
-    public int getId() {
-        return id;
-    }
-    public void setId(int id) {
-        this.id = id;
-    }
     public String getSource() {
         return source;
     }
@@ -45,6 +36,6 @@ public class Message
     }
     @Override
     public String toString() {
-        return this.id + ":" + this.source +  ":" +this.translation;
+        return this.locations + ":" + this.source +  ":" + this.translation;
     }
 }
