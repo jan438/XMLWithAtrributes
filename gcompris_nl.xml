@@ -865,6 +865,7 @@ In case of light it is just the opposite of mixing color with paints! The more l
         <location filename="activities/advanced_colors/ActivityInfo.qml" line="12" />
         <source>Learn to recognize unusual colors.</source>
         <translation>Leer vreemde kleuren te herkennen.</translation>
+    </message>
     <message>
         <location filename="activities/advanced_colors/ActivityInfo.qml" line="13" />
         <source>Can read</source>
@@ -875,8 +876,7 @@ In case of light it is just the opposite of mixing color with paints! The more l
         <source>Click on the correct colored butterfly.</source>
         <translation>Klik op de vlinder met de goede kleur</translation>
     </message>
-    </message>
-        <message>
+    <message>
         <location filename="activities/advanced_colors/advanced_colors.js" line="24" />
         <source>Find the coral butterfly</source>
         <translation>Zoek de vlinder koraalrood</translation>
