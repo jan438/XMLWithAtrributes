@@ -26,8 +26,8 @@ public class TranslationXmlParser {
 			BufferedWriter bufferedWriter = null;
 		    FileReader fr;
 		    try {		        
-		    	fr = new FileReader(new File("/home/keanu/GCompris-qt/src/" + file));
-		        bufferedWriter = new BufferedWriter(new FileWriter("/home/keanu/GCompris-qt/src/" + file + "2"));
+		    	fr = new FileReader(new File("/usr/local//GCompris-qt/src/" + file));
+		        bufferedWriter = new BufferedWriter(new FileWriter("/usr/local/GCompris-qt/src/" + file + "2"));
 		        BufferedReader br = new BufferedReader(fr);
 		        String line = br.readLine();
 		        while (line != null) {
@@ -56,9 +56,9 @@ public class TranslationXmlParser {
 		        }
 		    }
 		}
-		File f2 = new File("/home/keanu/GCompris-qt/src/" + file + "2");
+		File f2 = new File("/usr/local/GCompris-qt/src/" + file + "2");
 		if (f2.exists()) {
-			File f_orig = new File("/home/keanu/GCompris-qt/src/" + file);
+			File f_orig = new File("/usr/local/GCompris-qt/src/" + file);
 			f_orig.delete();
 			f2.renameTo(f_orig);
 		} 
@@ -72,6 +72,7 @@ public class TranslationXmlParser {
 		Map<String, String> translations = new HashMap<String,String>();
 				
 		try {			
+			
 			fis = new FileInputStream("gcompris_nl.xml");   
 			//Create a empty link of messages initially
 			messages = new ArrayList<Message>();        
@@ -87,6 +88,7 @@ public class TranslationXmlParser {
             parser.parse(source);
             //populate the parsed messsages list in above created empty list; You can return from here also.
             messages = handler.getMessages(); 
+            
         } catch (SAXException e) {
             e.printStackTrace();
         } catch (IOException e) {
