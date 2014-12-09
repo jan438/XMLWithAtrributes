@@ -61,6 +61,11 @@
     </message>
     <message>
         <location filename="activities/erase_clic/ActivityInfo.qml" line="9" />
+        <source>Click or tap</source>
+        <translation>Klikken of tappen</translation>
+    </message>
+    <message>
+        <location filename="activities/erase_clic/ActivityInfo.qml" line="9" />
         <source>Click the mouse</source>
         <translation>Klik met de muis</translation>
     </message>
@@ -194,6 +199,11 @@
         <source>Move the mouse</source>
         <translation>Beweeg de muis</translation>
     </message>
+    <message>
+        <location filename="activities/erase/ActivityInfo.qml" line="9" />
+        <source>Move the mouse or touch the screen</source>
+        <translation>Beweeg de muis of raak het scherm aan</translation>
+    </message> 
     <message>
         <location filename="activities/erase/ActivityInfo.qml" line="10" />
         <source>Move the mouse to erase the area and discover the background</source>
@@ -1827,6 +1837,11 @@ In this game, these cards are hiding the two parts of an adding-up sum (also cal
         <location filename="activities/erase_2clic/ActivityInfo.qml" line="9" />
         <source>Double click the mouse</source>
         <translation>Dubbelklik met de muis</translation>
+    </message>
+    <message>
+    	<location filename="activities/erase_2clic/ActivityInfo.qml" line="9" />
+		<source>Double tap or double click</source>
+		<tranlation>Dubbeltappen of dubbelklikken</tranlation>
     </message>
     <message>
         <location filename="activities/erase_2clic/ActivityInfo.qml" line="10" />
