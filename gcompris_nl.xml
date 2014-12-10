@@ -784,7 +784,7 @@ Have fun! :)</source>
     <message>
         <location filename="activities/gnumch-inequality/ActivityInfo.qml" line="9" />
         <source>Gnumch Inequality</source>
-        <translation type="unfinished" />
+        <translation>Ongelijkheids-monster</translation>
     </message>
     <message>
         <location filename="activities/gnumch-inequality/ActivityInfo.qml" line="10" />
