@@ -1239,7 +1239,7 @@ In case of light it is just the opposite of mixing color with paints! The more l
     <message>
         <location filename="activities/mazerelative/ActivityInfo.qml" line="9" />
         <source>Relative Maze</source>
-        <translation type="unfinished" />
+        <translation>Relatief doolhof</translation>
     </message>
     <message>
         <location filename="activities/mazerelative/ActivityInfo.qml" line="10" />
@@ -1893,7 +1893,7 @@ In this game, these cards are hiding the two parts of an adding-up sum (also cal
     <message>
         <location filename="activities/memory-tux/ActivityInfo.qml" line="9" />
         <source>Memory Game with images against Tux</source>
-        <translation type="unfinished" />
+        <translation>Geheugenspel met afbeeldingen tegen Tux</translation>
     </message>
     <message>
         <location filename="activities/memory-tux/ActivityInfo.qml" line="10" />
@@ -2020,7 +2020,7 @@ From level 14 on, run-fast-mode will be enabled automatically. If you want to us
     <message>
         <location filename="activities/mazeinvisible/ActivityInfo.qml" line="9" />
         <source>Invisible Maze</source>
-        <translation type="unfinished" />
+        <translation>Onzichtbaar doolhof</translation>
     </message>
     <message>
         <location filename="activities/mazeinvisible/ActivityInfo.qml" line="10" />
