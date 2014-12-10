@@ -321,6 +321,16 @@ In this game, these cards are hiding the two parts of an operation. You need to 
         <translation>Oefenen met vermenigvuldigen</translation>
     </message>
     <message>
+        <location filename="activities/algebra_by/ActivityInfo.qml" line="9" />
+        <source>Multiplication of numbers</source>
+        <translation>Vermenigvuldiging van getallen</translation>
+    </message>
+    <message>
+        <location filename="activities/algebra_by/ActivityInfo.qml" line="9" />
+        <source>Practice the multiplication operation</source>
+        <translation>Oefenen met vermenigvuldigen</translation>
+    </message>
+    <message>
         <location filename="activities/algebra_by/ActivityInfo.qml" line="10" />
         <location filename="activities/algebra_minus/ActivityInfo.qml" line="10" />
         <location filename="activities/algebra_plus/ActivityInfo.qml" line="10" />
@@ -383,8 +393,8 @@ In this game, these cards are hiding the two parts of an operation. You need to 
     </message>
     <message>
         <location filename="activities/redraw/ActivityInfo.qml" line="9" />
-        <source>Redraw the given item</source>
-        <translation>Teken het gegeven item opnieuw</translation>
+        <source>Redraw the given image</source>
+        <translation>Teken de gegeven afbeelding opnieuw</translation>
     </message>
     <message>
         <location filename="activities/redraw/ActivityInfo.qml" line="10" />
@@ -1612,7 +1622,7 @@ In this game, these cards are hiding the two parts of an operation. You need to 
     <message>
         <location filename="activities/numbers-odd-even/ActivityInfo.qml" line="28" />
         <source>Even and Odd Numbers</source>
-        <translation type="unfinished" />
+        <translation>Even en oneven getallen</translation>
     </message>
     <message>
         <location filename="activities/numbers-odd-even/ActivityInfo.qml" line="29" />
@@ -2074,7 +2084,7 @@ From level 14 on, run-fast-mode will be enabled automatically. If you want to us
     <message>
         <location filename="activities/gnumch-equality/ActivityInfo.qml" line="9" />
         <source>Gnumch Equality</source>
-        <translation type="unfinished" />
+        <translation>Monster-gelijkheid</translation>
     </message>
     <message>
         <location filename="activities/gnumch-equality/ActivityInfo.qml" line="10" />
