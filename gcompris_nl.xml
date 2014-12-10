@@ -1841,7 +1841,7 @@ In this game, these cards are hiding the two parts of an adding-up sum (also cal
     <message>
     	<location filename="activities/erase_2clic/ActivityInfo.qml" line="9" />
 		<source>Double tap or double click</source>
-		<tranlation>Dubbeltappen of dubbelklikken</tranlation>
+		<translation>Dubbeltappen of dubbelklikken</translation>
     </message>
     <message>
         <location filename="activities/erase_2clic/ActivityInfo.qml" line="10" />
