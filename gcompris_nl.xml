@@ -2769,7 +2769,7 @@ Bezoek http://nl.gnome.org voor meer informatie</translation>
     <message>
         <location filename="activities/mining/Mining.qml" line="387" />
         <source>Find the sparkle and zoom in around it. If you have a mouse, point the cursor on the sparkle then use the scroll wheel. If you have a trackpad, point the cursor on the sparkle then drag one finger on the right area or two fingers on the center. On a touch area, drag two fingers away from the sparkle, one in each direction.</source>
-        <translation type="unfinished" />
+        <translation>Zoek de glinstering en zoom er op in. Als je een muis hebt, zet de cursor dan op de glinstering en gebruik het wieltje. Als je een aanraakvlak hebt, zet de cursor op de glinstering en veeg met een vinger in het rechter gebied of twee vingers in het midden. Op een aanraakgebied veeg je twee vingers weg van de glinstering, elk in tegenovergestelde richting.</translation>        
     </message>
     <message>
         <location filename="activities/mining/Mining.qml" line="396" />
