@@ -2566,6 +2566,59 @@ Bezoek http://nl.gnome.org voor meer informatie</translation>
     </message>
 </context>
 <context>
+    <name>Colors</name>
+    <message>
+        <location filename="activities/colors/colors.js" line="144" />
+        <source>Find the yellow duck</source>
+        <translation>Zoek het gele eendje</translation>
+    </message>
+    <message>
+        <location filename="activities/colors/colors.js" line="144" />
+		<source>Find the black duck</source>
+		<translation>Zoek het zwarte eendje</translation>
+	</message>
+    <message>
+        <location filename="activities/colors/colors.js" line="144" />
+		<source>Find the green duck</source>
+		<translation>Zoek het groene eendje</translation>
+	</message>
+    <message>
+        <location filename="activities/colors/colors.js" line="144" />
+		<source>Find the red duck</source>
+		<translation>Zoek het rode eendje</translation>
+	</message>
+    <message>
+        <location filename="activities/colors/colors.js" line="144" />
+		<source>Find the white duck</source>
+		<translation>Zoek het witte eendje</translation>
+	</message>
+    <message>
+        <location filename="activities/colors/colors.js" line="144" />
+		<source>Find the blue duck</source>
+		<translation>Zoek het blauwe eendje</translation>
+	</message>
+    <message>
+        <location filename="activities/colors/colors.js" line="144" />
+		<source>Find the brown duck</source>
+		<translation>Zoek het bruine eendje</translation>
+	</message>
+    <message>
+        <location filename="activities/colors/colors.js" line="144" />
+		<source>Find the grey duck</source>
+		<translation>Zoek het grijze eendje</translation>
+	</message>
+    <message>
+        <location filename="activities/colors/colors.js" line="144" />
+		<source>Find the orange duck</source>
+		<translation>Zoek het oranje eendje</translation>
+	</message>
+    <message>
+        <location filename="activities/colors/colors.js" line="144" />
+		<source>Find the purple duck</source>
+		<translation>Zoek het paarse eendje</translation>
+    </message>
+</context>
+<context>
     <name>Maze</name>
     <message>
         <location filename="activities/maze/Maze.qml" line="349" />
@@ -2607,108 +2660,108 @@ Bezoek http://nl.gnome.org voor meer informatie</translation>
     </message>
     <message>
         <location filename="activities/instruments/instruments.js" line="349" />
-		<source>"Find the trombone"</source>
-		<translation>"Zoek de trombone"</translation>
+		<source>Find the trombone</source>
+		<translation>Zoek de trombone</translation>
 	</message>
     <message>
         <location filename="activities/instruments/instruments.js" line="349" />
-		<source>"Find the trumpet"</source>
-		<translation>"Zoek de trompet"</translation>
+		<source>Find the trumpet</source>
+		<translation>Zoek de trompet</translation>
 	</message>
     <message>
         <location filename="activities/instruments/instruments.js" line="349" />
-		<source>"Find the violin"</source>
-		<translation>"Zoek de viool"</translation>
+		<source>Find the violin</source>
+		<translation>Zoek de viool</translation>
 	</message>
     <message>
         <location filename="activities/instruments/instruments.js" line="349" />
-		<source>"Find the flute traversiere"</source>
-		<translation>"Zoek de dwarsfluit"</translation>
+		<source>Find the flute traversiere</source>
+		<translation>Zoek de dwarsfluit</translation>
 	</message>
     <message>
         <location filename="activities/instruments/instruments.js" line="349" />
-		<source>"Find the drum kit"</source>
-		<translation>"Zoek het drumstel"</translation>
+		<source>Find the drum kit</source>
+		<translation>Zoek het drumstel</translation>
 	</message>
     <message>
         <location filename="activities/instruments/instruments.js" line="349" />
-		<source>"Find the accordion"</source>
-		<translation>"Zoek de accordeon"</translation>
+		<source>Find the accordion</source>
+		<translation>Zoek de accordeon</translation>
 	</message>
     <message>
         <location filename="activities/instruments/instruments.js" line="349" />
-		<source>"Find the banjo"</source>
-		<translation>"Zoek de banjo"</translation>
+		<source>Find the banjo</source>
+		<translation>Zoek de banjo</translation>
 	</message>
     <message>
         <location filename="activities/instruments/instruments.js" line="349" />
-		<source>"Find the bongo"</source>
-		<translation>"Zoek de bongo"</translation>
+		<source>Find the bongo</source>
+		<translation>Zoek de bongo</translation>
 	</message>
     <message>
         <location filename="activities/instruments/instruments.js" line="349" />
-		<source>"Find the electric guitar"</source>
-		<translation>"Zoek de elektrische gitaar"</translation>
+		<source>Find the electric guitar</source>
+		<translation>Zoek de elektrische gitaar</translation>
 	</message>
     <message>
         <location filename="activities/instruments/instruments.js" line="349" />
-		<source>"Find the castanets"</source>
-		<translation>"Zoek de castagnetten"</translation>
+		<source>Find the castanets</source>
+		<translation>Zoek de castagnetten</translation>
 	</message>
     <message>
         <location filename="activities/instruments/instruments.js" line="349" />
-		<source>"Find the cymbal"</source>
-		<translation>"Zoek de cimbaal"</translation>
+		<source>Find the cymbal</source>
+		<translation>Zoek de cimbaal</translation>
 	</message>
     <message>
         <location filename="activities/instruments/instruments.js" line="349" />
-		<source>"Find the cello"</source>
-		<translation>"Zoek de cello"</translation>
+		<source>Find the cello</source>
+		<translation>Zoek de cello</translation>
 	</message>
     <message>
         <location filename="activities/instruments/instruments.js" line="349" />
-		<source>"Find the harmonica"</source>
-		<translation>"Zoek de harmonica"</translation>
+		<source>Find the harmonica</source>
+		<translation>Zoek de harmonica</translation>
 	</message>
     <message>
         <location filename="activities/instruments/instruments.js" line="349" />
-		<source>"Find the horn"</source>
-		<translation>"Zoek de hoorn"</translation>
+		<source>Find the horn</source>
+		<translation>Zoek de hoorn</translation>
 	</message>
     <message>
         <location filename="activities/instruments/instruments.js" line="349" />
-		<source>"Find the maracas"</source>
-		<translation>"Zoek de maracas"</translation>
+		<source>Find the maracas</source>
+		<translation>Zoek de maracas</translation>
 	</message>
     <message>
         <location filename="activities/instruments/instruments.js" line="349" />
-		<source>"Find the organ"</source>
-		<translation>"Zoek het orgel"</translation>
+		<source>Find the organ</source>
+		<translation>Zoek het orgel</translation>
 	</message>
     <message>
         <location filename="activities/instruments/instruments.js" line="349" />
-		<source>"Find the snare drum"</source>
-		<translation>"Zoek de kleine trommel"</translation>
+		<source>Find the snare drum</source>
+		<translation>Zoek de kleine trommel</translation>
 	</message>
     <message>
         <location filename="activities/instruments/instruments.js" line="349" />
-		<source>"Find the timpani"</source>
-		<translation>"Zoek de timpani"</translation>
+		<source>Find the timpani</source>
+		<translation>Zoek de timpani</translation>
 	</message>	
     <message>
         <location filename="activities/instruments/instruments.js" line="349" />
-		<source>"Find the triangle"</source>
-		<translation>"Zoek de triangel"</translation>
+		<source>Find the triangle</source>
+		<translation>Zoek de triangel</translation>
 	</message>
     <message>
         <location filename="activities/instruments/instruments.js" line="349" />
-		<source>"Find the tambourine"</source>
-		<translation>"Zoek de tamboerijn"</translation>
+		<source>Find the tambourine</source>
+		<translation>Zoek de tamboerijn</translation>
 	</message>
     <message>
         <location filename="activities/instruments/instruments.js" line="349" />
-		<source>"Find the tuba"</source>
-		<translation>"Zoek de tuba"</translation>
+		<source>Find the tuba</source>
+		<translation>Zoek de tuba</translation>
 	</message>    
 </context>
 <context>
