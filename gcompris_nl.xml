@@ -717,6 +717,11 @@ Have fun! :)</source>
         <translation>Oefenen met aftrekken</translation>
     </message>
     <message>
+        <location filename="activities/algebra_minus/ActivityInfo.qml" line="9" />
+        <source>Subtraction of numbers</source>
+        <translation>Getallen van elkaar aftrekken</translation>
+    </message>
+    <message>
         <location filename="activities/algebra_minus/ActivityInfo.qml" line="12" />
         <source>In a limited time, find the difference between two numbers</source>
         <translation>Geef in een beperkte tijd het resultaat van het verschil van twee getallen</translation>
@@ -1872,6 +1877,11 @@ In this game, these cards are hiding the two parts of an adding-up sum (also cal
     </message>
     <message>
         <location filename="activities/drawnumber/ActivityInfo.qml" line="9" />
+        <source>Number sequence</source>
+        <translation>Volgorde van getallen</translation>
+    </message>
+    <message>
+        <location filename="activities/drawnumber/ActivityInfo.qml" line="9" />
         <source>drawnumber activity</source>
         <translation type="unfinished" />
     </message>
@@ -1996,6 +2006,11 @@ From level 14 on, run-fast-mode will be enabled automatically. If you want to us
         <location filename="activities/algebra_plus/ActivityInfo.qml" line="9" />
         <source>Practice the addition operation</source>
         <translation>Oefenen met optellen</translation>
+    </message>
+    <message>
+        <location filename="activities/algebra_plus/ActivityInfo.qml" line="9" />
+        <source>Addition of numbers</source>
+        <translation>Getallen optellen</translation>
     </message>
     <message>
         <location filename="activities/algebra_plus/ActivityInfo.qml" line="12" />
