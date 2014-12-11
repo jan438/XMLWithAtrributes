@@ -2824,6 +2824,14 @@ Bezoek http://nl.gnome.org voor meer informatie</translation>
     </message>
 </context>
 <context>
+    <name>Money</name>
+    <message>
+    	<location filename="activities/money/money.js" line="50" />
+       	<source>Tux just bought some items in your shop. He gives you %1, please give back his change.</source>
+        <translation>Tux heeft iets in jouw winkel gekocht. Hij geeft je %1, geef hem het wisselgeld.</translation>
+    </message>
+</context>
+<context>
     <name>ScaleNumber</name>
     <message>
         <location filename="activities/scalesboard/ScaleNumber.qml" line="44" />
